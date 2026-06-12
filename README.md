@@ -5,6 +5,9 @@ Atom AI is an AI-powered enterprise knowledge assistant built using FastAPI, Str
 The project allows users to upload documents and ask questions based on the uploaded knowledge base using Retrieval-Augmented Generation (RAG).
 
 ---
+🚀 Live Demo
+
+https://atom-ai-demo.streamlit.app/
 
 # 🚀 Features
 
