@@ -4,6 +4,11 @@ from rag import (chat, build_index_from_text, delete_document)
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "Atom AI Backend Running"}
+
+
 class UserQuery(BaseModel):
     query: str
     history: list = []
